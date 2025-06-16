@@ -1,0 +1,35 @@
+[
+  {
+    "Type": "DWord",
+    "Name": "VisualFxSetting",
+    "Value": 2,
+    "Action": "Set",
+    "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\VisualEffects"
+  },
+  {
+    "Type": "Binary",
+    "Name": "UserPreferencesMask",
+    "Value": [
+      144,
+      18,
+      2,
+      128
+    ],
+    "Action": "Set",
+    "Path": "HKCU:\\Control Panel\\Desktop"
+  },
+  {
+    "Type": "DWord",
+    "Name": "EnableAeroPeek",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKCU:\\Software\\Microsoft\\Windows\\DWM"
+  },
+  {
+    "Type": "DWord",
+    "Name": "AlwaysHolographic",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKCU:\\Software\\Microsoft\\Windows\\DWM"
+  }
+]

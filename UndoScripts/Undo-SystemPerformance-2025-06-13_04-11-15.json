@@ -1,0 +1,86 @@
+[
+  {
+    "Action": "Set",
+    "Name": "StartupDelayInMSec",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Serialize",
+    "Type": "DWord",
+    "Value": 0
+  },
+  {
+    "Action": "Set",
+    "Name": "GameDVR_FSEBehavior",
+    "Path": "HKCU:\\System\\GameConfigStore",
+    "Type": "DWord",
+    "Value": 2
+  },
+  {
+    "Action": "Set",
+    "Name": "GameDVR_Enabled",
+    "Path": "HKCU:\\System\\GameConfigStore",
+    "Type": "DWord",
+    "Value": 0
+  },
+  {
+    "Action": "Set",
+    "Name": "HwSchMode",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\GraphicsDrivers",
+    "Type": "DWord",
+    "Value": 2
+  },
+  {
+    "Action": "Set",
+    "Name": "PowerThrottlingOff",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Power\\PowerThrottling",
+    "Type": "DWord",
+    "Value": 1
+  },
+  {
+    "Action": "Set",
+    "Name": "DisablePagingCombining",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management",
+    "Type": "DWord",
+    "Value": 1
+  },
+  {
+    "Action": "Set",
+    "Name": "AutoEndTasks",
+    "Path": "HKCU:\\Control Panel\\Desktop",
+    "Type": "String",
+    "Value": "1"
+  },
+  {
+    "Action": "Set",
+    "Name": "HungAppTimeout",
+    "Path": "HKCU:\\Control Panel\\Desktop",
+    "Type": "String",
+    "Value": "3000"
+  },
+  {
+    "Action": "Set",
+    "Name": "WaitToKillAppTimeout",
+    "Path": "HKCU:\\Control Panel\\Desktop",
+    "Type": "String",
+    "Value": "5000"
+  },
+  {
+    "Action": "Set",
+    "Name": "WaitToKillServiceTimeout",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control",
+    "Type": "String",
+    "Value": "2000"
+  },
+  {
+    "Action": "Set",
+    "Name": "Win32PrioritySeparation",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\PriorityControl",
+    "Type": "DWord",
+    "Value": 38
+  },
+  {
+    "Action": "Set",
+    "Name": "Auto",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AeDebug",
+    "Type": "String",
+    "Value": "0"
+  }
+]

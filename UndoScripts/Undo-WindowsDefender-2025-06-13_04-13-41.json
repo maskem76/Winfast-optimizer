@@ -1,0 +1,70 @@
+[
+  {
+    "Action": "Set",
+    "Name": "DisableNotifications",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows Defender Security Center\\Notifications",
+    "Type": "DWord",
+    "Value": 1
+  },
+  {
+    "Action": "Set",
+    "Name": "DisableAntiSpyware",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows Defender",
+    "Type": "DWord",
+    "Value": 1
+  },
+  {
+    "Action": "Set",
+    "Name": "DisableAntiVirus",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows Defender",
+    "Type": "DWord",
+    "Value": 1
+  },
+  {
+    "Action": "Set",
+    "Name": "TamperProtection",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows Defender\\Features",
+    "Type": "DWord",
+    "Value": 0
+  },
+  {
+    "Action": "Set",
+    "Name": "HideSystray",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender Security Center\\Systray",
+    "Type": "DWord",
+    "Value": 1
+  },
+  {
+    "Action": "Set",
+    "Name": "DisableAntiSpyware",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender",
+    "Type": "DWord",
+    "Value": 1
+  },
+  {
+    "Action": "Set",
+    "Name": "DisableRealtimeMonitoring",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection",
+    "Type": "DWord",
+    "Value": 1
+  },
+  {
+    "Action": "Set",
+    "Name": "SpyNetReporting",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Spynet",
+    "Type": "DWord",
+    "Value": 0
+  },
+  {
+    "Action": "Set",
+    "Name": "EnableSmartScreen",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System",
+    "Type": "DWord",
+    "Value": 0
+  },
+  {
+    "Action": "RemoveValue",
+    "Name": "Debugger",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options\\smartscreen.exe"
+  }
+]

@@ -1,0 +1,7 @@
+﻿{
+    "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\DeviceGuard\\Scenarios\\HypervisorEnforcedCodeIntegrity",
+    "Name":  "Enabled",
+    "Value":  0,
+    "Action":  "Set",
+    "Type":  "DWord"
+}

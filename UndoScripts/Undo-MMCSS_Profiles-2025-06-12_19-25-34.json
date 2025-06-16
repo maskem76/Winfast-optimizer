@@ -1,0 +1,23 @@
+[
+  {
+    "Type": "DWord",
+    "Name": "GPU Priority",
+    "Value": 8,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Multimedia\\SystemProfile\\Tasks\\Games"
+  },
+  {
+    "Type": "DWord",
+    "Name": "Priority",
+    "Value": 2,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Multimedia\\SystemProfile\\Tasks\\Games"
+  },
+  {
+    "Type": "String",
+    "Name": "Scheduling Category",
+    "Value": "High",
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Multimedia\\SystemProfile\\Tasks\\Games"
+  }
+]

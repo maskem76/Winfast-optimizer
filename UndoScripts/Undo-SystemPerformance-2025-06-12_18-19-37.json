@@ -1,0 +1,114 @@
+[
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Serialize",
+    "Value": 0,
+    "Name": "StartupDelayInMSec"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\System\\GameConfigStore",
+    "Value": 2,
+    "Name": "GameDVR_FSEBehavior"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\System\\GameConfigStore",
+    "Value": 0,
+    "Name": "GameDVR_Enabled"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\GraphicsDrivers",
+    "Value": 2,
+    "Name": "HwSchMode"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Power\\PowerThrottling",
+    "Value": 1,
+    "Name": "PowerThrottlingOff"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management",
+    "Value": 1,
+    "Name": "DisablePagingCombining"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Power\\PowerSettings\\54533251-82be-4824-96c1-47b60b740d00\\0cc5b647-c1df-4637-891a-dec35c318583",
+    "Value": 0,
+    "Name": "ValueMax"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Power\\PowerSettings\\54533251-82be-4824-96c1-47b60b740d00\\893dee84-a367-41bb-83cd-f14d86a54432",
+    "Value": 0,
+    "Name": "ValueMax"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Power\\PowerSettings\\54533251-82be-4824-96c1-47b60b740d00\\5d76a2ca-e8c0-402f-a133-2158492d58",
+    "Value": 0,
+    "Name": "ValueMax"
+  },
+  {
+    "Action": "Set",
+    "Type": "String",
+    "Path": "HKCU:\\Control Panel\\Desktop",
+    "Value": "1",
+    "Name": "AutoEndTasks"
+  },
+  {
+    "Action": "Set",
+    "Type": "String",
+    "Path": "HKCU:\\Control Panel\\Desktop",
+    "Value": "3000",
+    "Name": "HungAppTimeout"
+  },
+  {
+    "Action": "Set",
+    "Type": "String",
+    "Path": "HKCU:\\Control Panel\\Desktop",
+    "Value": "5000",
+    "Name": "WaitToKillAppTimeout"
+  },
+  {
+    "Action": "Set",
+    "Type": "String",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control",
+    "Value": "2000",
+    "Name": "WaitToKillServiceTimeout"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\PriorityControl",
+    "Value": 38,
+    "Name": "Win32PrioritySeparation"
+  },
+  {
+    "Action": "Set",
+    "Type": "String",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AeDebug",
+    "Value": "0",
+    "Name": "Auto"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management",
+    "Value": 0,
+    "Name": "ClearPageFileAtShutdown"
+  }
+]

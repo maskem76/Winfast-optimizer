@@ -1,0 +1,7 @@
+﻿{
+    "Path":  "HKLM:\\SOFTWARE\\Microsoft\\Windows\\Dwm",
+    "Name":  "OverlayTestMode",
+    "Value":  5,
+    "Action":  "Set",
+    "Type":  "DWord"
+}

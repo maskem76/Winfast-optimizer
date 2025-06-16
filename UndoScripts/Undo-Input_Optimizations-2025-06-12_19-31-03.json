@@ -1,0 +1,16 @@
+[
+  {
+    "Type": "String",
+    "Name": "MouseSpeed",
+    "Value": "0",
+    "Action": "Set",
+    "Path": "HKCU:\\Control Panel\\Mouse"
+  },
+  {
+    "Type": "String",
+    "Name": "KeyboardDelay",
+    "Value": "0",
+    "Action": "Set",
+    "Path": "HKCU:\\Control Panel\\Keyboard"
+  }
+]

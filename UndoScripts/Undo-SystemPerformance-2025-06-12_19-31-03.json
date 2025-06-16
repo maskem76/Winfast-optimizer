@@ -1,0 +1,86 @@
+[
+  {
+    "Type": "DWord",
+    "Name": "StartupDelayInMSec",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Serialize"
+  },
+  {
+    "Type": "DWord",
+    "Name": "GameDVR_FSEBehavior",
+    "Value": 2,
+    "Action": "Set",
+    "Path": "HKCU:\\System\\GameConfigStore"
+  },
+  {
+    "Type": "DWord",
+    "Name": "GameDVR_Enabled",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKCU:\\System\\GameConfigStore"
+  },
+  {
+    "Type": "DWord",
+    "Name": "HwSchMode",
+    "Value": 2,
+    "Action": "Set",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\GraphicsDrivers"
+  },
+  {
+    "Type": "DWord",
+    "Name": "PowerThrottlingOff",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Power\\PowerThrottling"
+  },
+  {
+    "Type": "DWord",
+    "Name": "DisablePagingCombining",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management"
+  },
+  {
+    "Type": "String",
+    "Name": "AutoEndTasks",
+    "Value": "1",
+    "Action": "Set",
+    "Path": "HKCU:\\Control Panel\\Desktop"
+  },
+  {
+    "Type": "String",
+    "Name": "HungAppTimeout",
+    "Value": "3000",
+    "Action": "Set",
+    "Path": "HKCU:\\Control Panel\\Desktop"
+  },
+  {
+    "Type": "String",
+    "Name": "WaitToKillAppTimeout",
+    "Value": "5000",
+    "Action": "Set",
+    "Path": "HKCU:\\Control Panel\\Desktop"
+  },
+  {
+    "Type": "String",
+    "Name": "WaitToKillServiceTimeout",
+    "Value": "2000",
+    "Action": "Set",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control"
+  },
+  {
+    "Type": "DWord",
+    "Name": "Win32PrioritySeparation",
+    "Value": 38,
+    "Action": "Set",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\PriorityControl"
+  },
+  {
+    "Type": "String",
+    "Name": "Auto",
+    "Value": "0",
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AeDebug"
+  }
+]

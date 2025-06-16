@@ -1,0 +1,35 @@
+[
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Windows Search",
+    "Value": 0,
+    "Name": "AllowIndexingEncryptedStoresOrItems"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Windows Search",
+    "Value": 0,
+    "Name": "AllowCloudSearch"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Search",
+    "Value": 0,
+    "Name": "BingSearchEnabled"
+  },
+  {
+    "Action": "SetServiceState",
+    "OriginalStartupType": 4,
+    "ServiceName": "DiagTrack",
+    "OriginalStatus": 1
+  },
+  {
+    "Action": "SetServiceState",
+    "OriginalStartupType": 4,
+    "ServiceName": "dmwappushservice",
+    "OriginalStatus": 1
+  }
+]

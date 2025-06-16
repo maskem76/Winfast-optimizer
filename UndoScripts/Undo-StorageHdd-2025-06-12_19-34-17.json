@@ -1,0 +1,5 @@
+{
+  "Name": "Attributes",
+  "Action": "RemoveValue",
+  "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\Power\\PowerSettings\\0012ee47-9041-4b5d-9b77-535fba8b1442\\dab60367-53fe-4fbc-825e-521d069d2456"
+}

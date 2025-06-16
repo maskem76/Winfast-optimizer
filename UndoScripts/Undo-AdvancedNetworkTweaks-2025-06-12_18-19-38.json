@@ -1,0 +1,107 @@
+[
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+    "Value": 0,
+    "Name": "EnablePMTUDiscovery"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+    "Value": 0,
+    "Name": "EnableDeadGWDetect"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+    "Value": 300000,
+    "Name": "KeepAliveTime"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\ServiceProvider",
+    "Value": 1,
+    "Name": "DnsPriority"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+    "Value": 30,
+    "Name": "TcpTimedWaitDelay"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Psched",
+    "Value": 0,
+    "Name": "NonBestEffortLimit"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters",
+    "Value": 64000,
+    "Name": "MaxCacheEntryTtlLimit"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+    "Value": 100,
+    "Name": "DefaultTTL"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+    "Value": 65534,
+    "Name": "MaxUserPort"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management",
+    "Value": 1,
+    "Name": "LargeSystemCache"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management",
+    "Value": 1,
+    "Name": "DisablePagingExecutive"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\FileSystem",
+    "Value": 4,
+    "Name": "NtfsMftZoneReservation"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Ndu",
+    "Value": 4,
+    "Name": "Start"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer",
+    "Value": 1,
+    "Name": "AlwaysUnloadDll"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\FileSystem",
+    "Value": 2,
+    "Name": "NtfsMemoryUsage"
+  }
+]

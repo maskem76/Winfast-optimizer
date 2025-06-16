@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "NtfsDisableLastAccessUpdate",
+    "Action": "RemoveValue",
+    "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\FileSystem"
+  },
+  {
+    "Name": "NtfsMftZoneReservation",
+    "Action": "RemoveValue",
+    "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\FileSystem"
+  },
+  {
+    "Name": "NtfsMemoryUsage",
+    "Action": "RemoveValue",
+    "Path": "HKLM\\SYSTEM\\CurrentControlSet\\Control\\FileSystem"
+  }
+]

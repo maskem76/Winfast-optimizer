@@ -1,0 +1,7 @@
+{
+  "Value": 1,
+  "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate",
+  "Name": "DisableWindowsUpdateAccess",
+  "Action": "Set",
+  "Type": "DWord"
+}

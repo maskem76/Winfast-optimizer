@@ -1,0 +1,86 @@
+﻿[
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+        "Name":  "EnablePMTUDiscovery",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+        "Name":  "EnableDeadGWDetect",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+        "Name":  "KeepAliveTime",
+        "Value":  300000,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\ServiceProvider",
+        "Name":  "DnsPriority",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+        "Name":  "TcpTimedWaitDelay",
+        "Value":  30,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Psched",
+        "Name":  "NonBestEffortLimit",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters",
+        "Name":  "MaxCacheEntryTtlLimit",
+        "Value":  10800,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+        "Name":  "DefaultTTL",
+        "Value":  64,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+        "Name":  "MaxUserPort",
+        "Value":  65534,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management",
+        "Name":  "DisablePagingExecutive",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Ndu",
+        "Name":  "Start",
+        "Value":  4,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer",
+        "Name":  "AlwaysUnloadDll",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    }
+]

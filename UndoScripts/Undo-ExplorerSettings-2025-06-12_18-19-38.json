@@ -1,0 +1,97 @@
+[
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Explorer",
+    "Value": 1,
+    "Name": "HideRecentlyAddedApps"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+    "Value": 0,
+    "Name": "Start_TrackProgs"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Feeds",
+    "Value": 2,
+    "Name": "ShellFeedsTaskbarViewMode"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+    "Value": 0,
+    "Name": "ShowTaskViewButton"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\FileSystem",
+    "Value": 1,
+    "Name": "LongPathsEnabled"
+  },
+  {
+    "Action": "Set",
+    "Type": "Binary",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer",
+    "Value": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "Name": "Link"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize",
+    "Value": 0,
+    "Name": "EnableTransparency"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+    "Value": 1,
+    "Name": "LaunchTo"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+    "Value": 0,
+    "Name": "HideFileExt"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced",
+    "Value": 1,
+    "Name": "Hidden"
+  },
+  {
+    "Action": "Set",
+    "Type": "String",
+    "Path": "HKCU:\\Control Panel\\Desktop\\WindowMetrics",
+    "Value": "0",
+    "Name": "MinAnimate"
+  },
+  {
+    "Action": "Set",
+    "Type": "String",
+    "Path": "HKCU:\\Software\\Classes\\CLSID\\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\\InprocServer32",
+    "Value": "",
+    "Name": "(Default)"
+  },
+  {
+    "Action": "SetServiceState",
+    "OriginalStartupType": 4,
+    "ServiceName": "SysMain",
+    "OriginalStatus": 1
+  }
+]

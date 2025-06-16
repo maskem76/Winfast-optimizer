@@ -1,0 +1,91 @@
+[
+  {
+    "Type": "DWord",
+    "Name": "HideRecentlyAddedApps",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Explorer"
+  },
+  {
+    "Type": "DWord",
+    "Name": "Start_TrackProgs",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced"
+  },
+  {
+    "Type": "DWord",
+    "Name": "ShellFeedsTaskbarViewMode",
+    "Value": 2,
+    "Action": "Set",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Feeds"
+  },
+  {
+    "Type": "DWord",
+    "Name": "ShowTaskViewButton",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced"
+  },
+  {
+    "Type": "DWord",
+    "Name": "LongPathsEnabled",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\FileSystem"
+  },
+  {
+    "Type": "Binary",
+    "Name": "Link",
+    "Value": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "Action": "Set",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer"
+  },
+  {
+    "Type": "DWord",
+    "Name": "EnableTransparency",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Themes\\Personalize"
+  },
+  {
+    "Type": "DWord",
+    "Name": "LaunchTo",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced"
+  },
+  {
+    "Type": "DWord",
+    "Name": "HideFileExt",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced"
+  },
+  {
+    "Type": "DWord",
+    "Name": "Hidden",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced"
+  },
+  {
+    "Type": "String",
+    "Name": "MinAnimate",
+    "Value": "0",
+    "Action": "Set",
+    "Path": "HKCU:\\Control Panel\\Desktop\\WindowMetrics"
+  },
+  {
+    "Type": "String",
+    "Name": "(Default)",
+    "Value": "",
+    "Action": "Set",
+    "Path": "HKCU:\\Software\\Classes\\CLSID\\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\\InprocServer32"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "Action": "Set",
+    "Name": "NoAutoUpdate",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate\\AU",
+    "Type": "DWord",
+    "Value": 1
+  },
+  {
+    "Action": "Set",
+    "Name": "PauseFeatureUpdatesEndTime",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\WindowsUpdate\\UX\\Settings",
+    "Type": "String",
+    "Value": "2038-01-19T03:14:07Z"
+  },
+  {
+    "Action": "Set",
+    "Name": "PauseQualityUpdatesEndTime",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\WindowsUpdate\\UX\\Settings",
+    "Type": "String",
+    "Value": "2038-01-19T03:14:07Z"
+  },
+  {
+    "Action": "Set",
+    "Name": "ExcludeWUDriversInQualityUpdate",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate",
+    "Type": "DWord",
+    "Value": 1
+  },
+  {
+    "Action": "Set",
+    "Name": "AllowSpeechModelUpdate",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Speech",
+    "Type": "DWord",
+    "Value": 0
+  },
+  {
+    "Action": "Set",
+    "Name": "AutoDownload",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\WindowsStore",
+    "Type": "DWord",
+    "Value": 4
+  },
+  {
+    "Action": "Set",
+    "Name": "AllowDiskHealthModelUpdates",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\StorageHealth",
+    "Type": "DWord",
+    "Value": 0
+  }
+]

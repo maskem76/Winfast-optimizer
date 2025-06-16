@@ -1,0 +1,5 @@
+﻿{
+    "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate",
+    "Name":  "DisableWindowsUpdateAccess",
+    "Action":  "RemoveValue"
+}

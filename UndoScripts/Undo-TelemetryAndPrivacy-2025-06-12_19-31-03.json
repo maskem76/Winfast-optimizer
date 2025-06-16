@@ -1,0 +1,156 @@
+[
+  {
+    "Type": "DWord",
+    "Name": "SubscribedContent-338393Enabled",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager"
+  },
+  {
+    "Type": "DWord",
+    "Name": "SilentInstalledAppsEnabled",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager"
+  },
+  {
+    "Type": "DWord",
+    "Name": "DisableWindowsConsumerFeatures",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent"
+  },
+  {
+    "Type": "DWord",
+    "Name": "PublishUserActivities",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System"
+  },
+  {
+    "Type": "DWord",
+    "Name": "AllowLinguisticDataCollection",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\TextInput"
+  },
+  {
+    "Type": "DWord",
+    "Name": "DoNotShowFeedbackNotifications",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\DataCollection"
+  },
+  {
+    "Type": "DWord",
+    "Name": "Enabled",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Input\\TIPC"
+  },
+  {
+    "Type": "DWord",
+    "Name": "Enabled",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\AdvertisingInfo"
+  },
+  {
+    "Type": "DWord",
+    "Name": "DisabledByGroupPolicy",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\AdvertisingInfo"
+  },
+  {
+    "Type": "DWord",
+    "Name": "DisableInventory",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\AppCompat"
+  },
+  {
+    "Type": "DWord",
+    "Name": "DisableTailoredExperiencesWithDiagnosticData",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent"
+  },
+  {
+    "Type": "DWord",
+    "Name": "EnableCdp",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System"
+  },
+  {
+    "Type": "DWord",
+    "Name": "AllowInputPersonalization",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\InputPersonalization"
+  },
+  {
+    "Type": "String",
+    "Name": "Value",
+    "Value": "Deny",
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\location"
+  },
+  {
+    "Type": "DWord",
+    "Name": "Status",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\lfsvc\\Service\\Configuration"
+  },
+  {
+    "Type": "DWord",
+    "Name": "DisableLocation",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\LocationAndSensors"
+  },
+  {
+    "Type": "DWord",
+    "Name": "PreventDeviceMetadataFromNetwork",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Device Metadata"
+  },
+  {
+    "Type": "DWord",
+    "Name": "AllowTelemetry",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\DataCollection"
+  },
+  {
+    "Type": "DWord",
+    "Name": "Start",
+    "Value": 0,
+    "Action": "Set",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\WMI\\Autologger\\AutoLogger-Diagtrack-Listener"
+  },
+  {
+    "Type": "DWord",
+    "Name": "Disabled",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\Windows Error Reporting"
+  },
+  {
+    "Type": "DWord",
+    "Name": "DisableSearchBoxSuggestions",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKCU:\\Software\\Policies\\Microsoft\\Windows\\Explorer"
+  },
+  {
+    "Type": "DWord",
+    "Name": "GlobalUserDisabled",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications"
+  }
+]

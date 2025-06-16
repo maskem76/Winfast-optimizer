@@ -1,0 +1,29 @@
+﻿[
+    {
+        "Path":  "HKLM\\SYSTEM\\CurrentControlSet\\Control\\FileSystem",
+        "Name":  "NtfsDisableLastAccessUpdate",
+        "Action":  "RemoveValue"
+    },
+    {
+        "Path":  "HKLM\\SYSTEM\\CurrentControlSet\\Control\\FileSystem",
+        "Name":  "NtfsMftZoneReservation",
+        "Action":  "RemoveValue"
+    },
+    {
+        "Path":  "HKLM\\SYSTEM\\CurrentControlSet\\Control\\FileSystem",
+        "Name":  "NtfsMemoryUsage",
+        "Action":  "RemoveValue"
+    },
+    {
+        "ServiceName":  "DiagTrack",
+        "OriginalStartupType":  4,
+        "Action":  "SetServiceState",
+        "OriginalStatus":  1
+    },
+    {
+        "ServiceName":  "dmwappushservice",
+        "OriginalStartupType":  4,
+        "Action":  "SetServiceState",
+        "OriginalStatus":  1
+    }
+]

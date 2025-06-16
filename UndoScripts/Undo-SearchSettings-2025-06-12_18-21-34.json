@@ -1,0 +1,23 @@
+[
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Windows Search",
+    "Value": 0,
+    "Name": "AllowIndexingEncryptedStoresOrItems"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Windows Search",
+    "Value": 0,
+    "Name": "AllowCloudSearch"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Search",
+    "Value": 0,
+    "Name": "BingSearchEnabled"
+  }
+]

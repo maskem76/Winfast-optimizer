@@ -1,0 +1,86 @@
+[
+  {
+    "Action": "Set",
+    "Name": "EnablePMTUDiscovery",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+    "Type": "DWord",
+    "Value": 0
+  },
+  {
+    "Action": "Set",
+    "Name": "EnableDeadGWDetect",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+    "Type": "DWord",
+    "Value": 0
+  },
+  {
+    "Action": "Set",
+    "Name": "KeepAliveTime",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+    "Type": "DWord",
+    "Value": 300000
+  },
+  {
+    "Action": "Set",
+    "Name": "DnsPriority",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\ServiceProvider",
+    "Type": "DWord",
+    "Value": 1
+  },
+  {
+    "Action": "Set",
+    "Name": "TcpTimedWaitDelay",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+    "Type": "DWord",
+    "Value": 30
+  },
+  {
+    "Action": "Set",
+    "Name": "NonBestEffortLimit",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\Psched",
+    "Type": "DWord",
+    "Value": 0
+  },
+  {
+    "Action": "Set",
+    "Name": "MaxCacheEntryTtlLimit",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Dnscache\\Parameters",
+    "Type": "DWord",
+    "Value": 64000
+  },
+  {
+    "Action": "Set",
+    "Name": "DefaultTTL",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+    "Type": "DWord",
+    "Value": 100
+  },
+  {
+    "Action": "Set",
+    "Name": "MaxUserPort",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters",
+    "Type": "DWord",
+    "Value": 65534
+  },
+  {
+    "Action": "Set",
+    "Name": "DisablePagingExecutive",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management",
+    "Type": "DWord",
+    "Value": 1
+  },
+  {
+    "Action": "Set",
+    "Name": "Start",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\Ndu",
+    "Type": "DWord",
+    "Value": 4
+  },
+  {
+    "Action": "Set",
+    "Name": "AlwaysUnloadDll",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer",
+    "Type": "DWord",
+    "Value": 1
+  }
+]

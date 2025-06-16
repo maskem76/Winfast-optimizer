@@ -1,0 +1,23 @@
+[
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications",
+    "Value": 1,
+    "Name": "GlobalUserDisabled"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Search",
+    "Value": 0,
+    "Name": "BackgroundAppGlobalToggle"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Search",
+    "Value": 0,
+    "Name": "AllowBackgroundActivityLaunch"
+  }
+]

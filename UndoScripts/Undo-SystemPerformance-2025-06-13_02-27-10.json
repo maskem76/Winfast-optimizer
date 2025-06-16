@@ -1,0 +1,86 @@
+﻿[
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Serialize",
+        "Name":  "StartupDelayInMSec",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKCU:\\System\\GameConfigStore",
+        "Name":  "GameDVR_FSEBehavior",
+        "Value":  2,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKCU:\\System\\GameConfigStore",
+        "Name":  "GameDVR_Enabled",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\GraphicsDrivers",
+        "Name":  "HwSchMode",
+        "Value":  2,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Power\\PowerThrottling",
+        "Name":  "PowerThrottlingOff",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management",
+        "Name":  "DisablePagingCombining",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKCU:\\Control Panel\\Desktop",
+        "Name":  "AutoEndTasks",
+        "Value":  "1",
+        "Action":  "Set",
+        "Type":  "String"
+    },
+    {
+        "Path":  "HKCU:\\Control Panel\\Desktop",
+        "Name":  "HungAppTimeout",
+        "Value":  "3000",
+        "Action":  "Set",
+        "Type":  "String"
+    },
+    {
+        "Path":  "HKCU:\\Control Panel\\Desktop",
+        "Name":  "WaitToKillAppTimeout",
+        "Value":  "10000",
+        "Action":  "Set",
+        "Type":  "String"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Control",
+        "Name":  "WaitToKillServiceTimeout",
+        "Value":  "1000",
+        "Action":  "Set",
+        "Type":  "String"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\PriorityControl",
+        "Name":  "Win32PrioritySeparation",
+        "Value":  38,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\AeDebug",
+        "Name":  "Auto",
+        "Value":  "0",
+        "Action":  "Set",
+        "Type":  "String"
+    }
+]

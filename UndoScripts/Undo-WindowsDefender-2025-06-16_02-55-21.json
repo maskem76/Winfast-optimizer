@@ -1,0 +1,88 @@
+﻿[
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Microsoft\\Windows Defender Security Center\\Notifications",
+        "Name":  "DisableNotifications",
+        "Action":  "RemoveValue"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Microsoft\\Windows Defender",
+        "Name":  "DisableAntiSpyware",
+        "Action":  "RemoveValue"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Microsoft\\Windows Defender",
+        "Name":  "DisableAntiVirus",
+        "Action":  "RemoveValue"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Microsoft\\Windows Defender\\Features",
+        "Name":  "TamperProtection",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender Security Center\\Systray",
+        "Name":  "HideSystray",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender",
+        "Name":  "DisableAntiSpyware",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Real-Time Protection",
+        "Name":  "DisableRealtimeMonitoring",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows Defender\\Spynet",
+        "Name":  "SpyNetReporting",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System",
+        "Name":  "EnableSmartScreen",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Image File Execution Options\\smartscreen.exe",
+        "Name":  "Debugger",
+        "Action":  "RemoveValue"
+    },
+    {
+        "ServiceName":  "wuauserv",
+        "OriginalStartupType":  2,
+        "Action":  "SetServiceState",
+        "OriginalStatus":  4
+    },
+    {
+        "ServiceName":  "DoSvc",
+        "OriginalStartupType":  4,
+        "Action":  "SetServiceState",
+        "OriginalStatus":  1
+    },
+    {
+        "ServiceName":  "bits",
+        "OriginalStartupType":  3,
+        "Action":  "SetServiceState",
+        "OriginalStatus":  1
+    },
+    {
+        "ServiceName":  "UsoSvc",
+        "OriginalStartupType":  2,
+        "Action":  "SetServiceState",
+        "OriginalStatus":  4
+    }
+]

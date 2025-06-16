@@ -1,0 +1,32 @@
+[
+  {
+    "Action": "SetServiceState",
+    "OriginalStartupType": 3,
+    "ServiceName": "Everything",
+    "OriginalStatus": 1
+  },
+  {
+    "Action": "SetServiceState",
+    "OriginalStartupType": 3,
+    "ServiceName": "RtkAudioUniversalService",
+    "OriginalStatus": 1
+  },
+  {
+    "Action": "SetServiceState",
+    "OriginalStartupType": 3,
+    "ServiceName": "Steam Client Service",
+    "OriginalStatus": 1
+  },
+  {
+    "Action": "SetServiceState",
+    "OriginalStartupType": 4,
+    "ServiceName": "WiseBootAssistant",
+    "OriginalStatus": 1
+  },
+  {
+    "Action": "SetServiceState",
+    "OriginalStartupType": 4,
+    "ServiceName": "YandexBrowserService",
+    "OriginalStatus": 4
+  }
+]

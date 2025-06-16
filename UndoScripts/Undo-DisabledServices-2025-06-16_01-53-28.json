@@ -1,0 +1,6 @@
+﻿{
+    "ServiceName":  "YandexBrowserService",
+    "OriginalStartupType":  2,
+    "Action":  "SetServiceState",
+    "OriginalStatus":  4
+}

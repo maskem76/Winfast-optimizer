@@ -1,0 +1,161 @@
+[
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+    "Value": 0,
+    "Name": "SubscribedContent-338393Enabled"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+    "Value": 0,
+    "Name": "SilentInstalledAppsEnabled"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent",
+    "Value": 1,
+    "Name": "DisableWindowsConsumerFeatures"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System",
+    "Value": 0,
+    "Name": "PublishUserActivities"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\TextInput",
+    "Value": 0,
+    "Name": "AllowLinguisticDataCollection"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\DataCollection",
+    "Value": 1,
+    "Name": "DoNotShowFeedbackNotifications"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Input\\TIPC",
+    "Value": 0,
+    "Name": "Enabled"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\AdvertisingInfo",
+    "Value": 0,
+    "Name": "Enabled"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\AdvertisingInfo",
+    "Value": 1,
+    "Name": "DisabledByGroupPolicy"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\AppCompat",
+    "Value": 1,
+    "Name": "DisableInventory"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent",
+    "Value": 1,
+    "Name": "DisableTailoredExperiencesWithDiagnosticData"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System",
+    "Value": 0,
+    "Name": "EnableCdp"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\InputPersonalization",
+    "Value": 0,
+    "Name": "AllowInputPersonalization"
+  },
+  {
+    "Action": "Set",
+    "Type": "String",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\location",
+    "Value": "Deny",
+    "Name": "Value"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\lfsvc\\Service\\Configuration",
+    "Value": 0,
+    "Name": "Status"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\LocationAndSensors",
+    "Value": 1,
+    "Name": "DisableLocation"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Device Metadata",
+    "Value": 1,
+    "Name": "PreventDeviceMetadataFromNetwork"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\DataCollection",
+    "Value": 0,
+    "Name": "AllowTelemetry"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\WMI\\Autologger\\AutoLogger-Diagtrack-Listener",
+    "Value": 0,
+    "Name": "Start"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKLM:\\SOFTWARE\\Microsoft\\Windows\\Windows Error Reporting",
+    "Value": 1,
+    "Name": "Disabled"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\Software\\Policies\\Microsoft\\Windows\\Explorer",
+    "Value": 1,
+    "Name": "DisableSearchBoxSuggestions"
+  },
+  {
+    "Action": "Set",
+    "Type": "DWord",
+    "Path": "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications",
+    "Value": 1,
+    "Name": "GlobalUserDisabled"
+  },
+  null,
+  null,
+  null,
+  null,
+  null
+]

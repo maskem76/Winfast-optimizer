@@ -1,0 +1,14 @@
+[
+  {
+    "OriginalStatus": 1,
+    "ServiceName": "DiagTrack",
+    "Action": "SetServiceState",
+    "OriginalStartupType": 4
+  },
+  {
+    "OriginalStatus": 1,
+    "ServiceName": "dmwappushservice",
+    "Action": "SetServiceState",
+    "OriginalStartupType": 4
+  }
+]

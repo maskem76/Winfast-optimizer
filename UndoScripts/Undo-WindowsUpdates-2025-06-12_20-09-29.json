@@ -1,0 +1,14 @@
+[
+  {
+    "OriginalStatus": 1,
+    "ServiceName": "wuauserv",
+    "Action": "SetServiceState",
+    "OriginalStartupType": 3
+  },
+  {
+    "OriginalStatus": 1,
+    "ServiceName": "DoSvc",
+    "Action": "SetServiceState",
+    "OriginalStartupType": 4
+  }
+]

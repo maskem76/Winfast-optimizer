@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DWord",
+    "Name": "LargeSystemCache",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\Session Manager\\Memory Management"
+  },
+  {
+    "OriginalStatus": 1,
+    "ServiceName": "wuauserv",
+    "Action": "SetServiceState",
+    "OriginalStartupType": 4
+  },
+  {
+    "OriginalStatus": 1,
+    "ServiceName": "DoSvc",
+    "Action": "SetServiceState",
+    "OriginalStartupType": 4
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "Type": "DWord",
+    "Name": "DisableWindowsUpdateAccess",
+    "Value": 1,
+    "Action": "Set",
+    "Path": "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\WindowsUpdate"
+  },
+  {
+    "OriginalStatus": 1,
+    "ServiceName": "wuauserv",
+    "Action": "SetServiceState",
+    "OriginalStartupType": 3
+  },
+  {
+    "OriginalStatus": 1,
+    "ServiceName": "DoSvc",
+    "Action": "SetServiceState",
+    "OriginalStartupType": 3
+  }
+]

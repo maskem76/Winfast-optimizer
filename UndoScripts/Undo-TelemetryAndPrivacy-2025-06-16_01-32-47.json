@@ -1,0 +1,154 @@
+﻿[
+    {
+        "Path":  "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+        "Name":  "SubscribedContent-338393Enabled",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ContentDeliveryManager",
+        "Name":  "SilentInstalledAppsEnabled",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent",
+        "Name":  "DisableWindowsConsumerFeatures",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System",
+        "Name":  "PublishUserActivities",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\TextInput",
+        "Name":  "AllowLinguisticDataCollection",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\DataCollection",
+        "Name":  "DoNotShowFeedbackNotifications",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKCU:\\SOFTWARE\\Microsoft\\Input\\TIPC",
+        "Name":  "Enabled",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\AdvertisingInfo",
+        "Name":  "Enabled",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\AdvertisingInfo",
+        "Name":  "DisabledByGroupPolicy",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\AppCompat",
+        "Name":  "DisableInventory",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\CloudContent",
+        "Name":  "DisableTailoredExperiencesWithDiagnosticData",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\System",
+        "Name":  "EnableCdp",
+        "Action":  "RemoveValue"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\InputPersonalization",
+        "Name":  "AllowInputPersonalization",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\CapabilityAccessManager\\ConsentStore\\location",
+        "Name":  "Value",
+        "Value":  "Deny",
+        "Action":  "Set",
+        "Type":  "String"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Services\\lfsvc\\Service\\Configuration",
+        "Name":  "Status",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Policies\\Microsoft\\Windows\\LocationAndSensors",
+        "Name":  "DisableLocation",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Device Metadata",
+        "Name":  "PreventDeviceMetadataFromNetwork",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\DataCollection",
+        "Name":  "AllowTelemetry",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SYSTEM\\CurrentControlSet\\Control\\WMI\\Autologger\\AutoLogger-Diagtrack-Listener",
+        "Name":  "Start",
+        "Value":  0,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKLM:\\SOFTWARE\\Microsoft\\Windows\\Windows Error Reporting",
+        "Name":  "Disabled",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKCU:\\Software\\Policies\\Microsoft\\Windows\\Explorer",
+        "Name":  "DisableSearchBoxSuggestions",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    },
+    {
+        "Path":  "HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\BackgroundAccessApplications",
+        "Name":  "GlobalUserDisabled",
+        "Value":  1,
+        "Action":  "Set",
+        "Type":  "DWord"
+    }
+]
