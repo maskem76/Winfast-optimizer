@@ -92,12 +92,3 @@ WinFast projesi açık kaynaklıdır ve katkılarınıza açıktır! Her türlü
 Bu proje [Lisans Türü - örn: MIT Lisansı] ile lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasına bakınız.
 
 ---
-
-**Yapılması Gerekenler:**
-
-1.  `SENIN_GITHUB_KULLANICI_ADIN` ve `SENIN_REPO_ADIN` yerlerini kendi GitHub kullanıcı adınız ve projenizin adı ile değiştirin.
-2.  `[Lisans Türü - örn: MIT Lisansı]` yerine kullandığınız lisans türünü yazın. Eğer bir lisans dosyanız yoksa (LICENSE.md), onu da oluşturmayı düşünebilirsiniz. MIT Lisansı basit ve yaygın bir seçenektir.
-3.  Projenizin `LICENSE` dosyasını da GitHub deponuzda bulundurun.
-4.  İsterseniz `Hakkında` ve `Özellikler` bölümlerine projenizin ekran görüntülerini veya kısa GIF'lerini ekleyerek daha görsel hale getirebilirsiniz.
-
-Bu `README.md` dosyası, kullanıcılarınıza projenizi tanıtmak ve nasıl kullanacaklarını açıklamak için iyi bir başlangıç noktası olacaktır.
